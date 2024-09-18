@@ -1,12 +1,26 @@
-# React Interview App
-## Prerequisites
-Ensure that you have [Node.js](https://nodejs.org/en/download/) installed on your machine.
+# Live Demo
+https://test-project-1-996b1.web.app/demo/
 
-## Installation
-Follow the steps below to set up the project on your local machine:
-1. Update npm to the latest version: Run `npm install -g npm`
-2. Clone this repository: Run `git clone <repository_url>`
-3. Navigate into the cloned repository: Run `cd <repository_name>`
-4. Install the project dependencies: Run `npm install`
-5. Start the project: Run `npm start`
-6. View the running application: Load `http://localhost:3000/` in your web browser
+# Start the project locally
+```
+npm run start
+```
+
+# Test
+Basic component level tests are included.
+After `npm run test`, press key `a` to run all tests.
+```
+npm run test
+>a
+```
+
+# Corner Cases
+- In the case where a pokemon doesn't have backSprite available, it uses frontSprite image. 
+- If both are unavailable, it will use the `no-image-placehollder.png` found in the `public` directory.
+- Some moves (like healing) does not have damages. In such cases the power is default to 0, as the move cause no damage to the opponent.
+
+# Build
+```
+npm run build
+```
+

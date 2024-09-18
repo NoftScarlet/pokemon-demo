@@ -1,0 +1,8 @@
+.log-text-body {
+  border: 0.125rem solid black;
+  border-radius: 0.32rem;
+  height: 5rem;
+  padding: 0.625rem;
+  flex-grow: 1;
+  max-width: 80%;
+}

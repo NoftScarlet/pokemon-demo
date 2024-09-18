@@ -1,0 +1,34 @@
+.main-container {
+  width: 60%;
+}
+
+.sprite-container {
+  border: 0.125rem solid black;
+  border-radius: 0.32rem;
+}
+
+.control-area-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.button {
+  background: white;
+  border: 0.125rem solid;
+  border-radius: 0.625rem;
+  padding: 0.32rem;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 1.15em;
+  font-weight: bold;
+  margin: 0.5rem 0
+}
